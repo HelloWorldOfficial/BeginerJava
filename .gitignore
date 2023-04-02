@@ -1,4 +1,9 @@
 .idea
 out
-/*/*.iml
+.iml
 .vscode
+DataTypes/.iml
+DataTypes/DataTypesExercise/.iml
+DataTypes/DataTypesSolution/.iml
+
+
