@@ -10,16 +10,16 @@ public class OperatorsSolution {
         double divide = 50;
         int multiply =  500;
 
-        //ADD <add> TO <num1>
+        num1 = num1 + add; //ADD <add> TO <num1>
         System.out.println(num1);
 
-        //SUBTRACT <subtract> FROM <num1>
+        num1 = num1 - subtract; //SUBTRACT <subtract> FROM <num1>
         System.out.println(num1);
 
-        //DIVIDE <num1> BY <divide>
+        num1 = num1 / divide; //DIVIDE <num1> BY <divide>
         System.out.println(num1);
 
-        //MULTIPLY <num1> BY <multiply>
+        num1 = num1 * multiply; //MULTIPLY <num1> BY <multiply>
         System.out.println(num1);
 
         /* Step 2: Using the following logical operators compare <num1> to <num2>, and print out the results(==, !=, <, <=, >, >=) */
@@ -28,25 +28,37 @@ public class OperatorsSolution {
 
         //SET <comparison> EQUAL TO <num1> EQUALS <num2>
 
+        comparison = (num1 == num2);
+
         System.out.println("Is num1 equal to num2? " + comparison);
 
         //SET <comparison> EQUAL TO <num1> NOT EQUAL TO <num2>
+
+        comparison = (num1 != num2);
 
         System.out.println("Is num1 not equal to num2? " + comparison);
 
         //SET <comparison> EQUAL TO <num1> LESS THAN <num2>
 
+        comparison = (num1 < num2);
+
         System.out.println("Is num1 less than num2? " + comparison);
 
         //SET <comparison> EQUAL TO < num1> LESS THAN OR EQUAL TO <num2>
+
+        comparison = (num1 <= num2);
 
         System.out.println("Is num1 less than or equal to num2? " + comparison);
 
         //SET <comparison> EQUAL TO <num1> GREATER THAN <num2>
 
+        comparison = (num1 > num2);
+
         System.out.println("Is num1 greater than num2? " + comparison);
 
         //SET <comparison> EQUAL TO <num1> GREATER OR EQUAL TO <num2>
+
+        comparison = (num1 >= num2);
 
         System.out.println("Is num1 greater or equal to num2? " + comparison);
 
@@ -57,9 +69,13 @@ public class OperatorsSolution {
 
         //SET <comparison> EQUAL TO <num3> GREATER THAN <num2> AND <num3> LESS THAN <num4>
 
+        comparison = ((num3 > num2) && (num3 < num4));
+
         System.out.println("Is num3 greater than num2 and less than num4? " + comparison);
 
         //SET <comparison> EQUAL TO <num3> GREATER THAN <num2> OR <num3> GREATER THAN <num4>
+
+        comparison = ((num3 > num2) || (num3 > num4));
 
         System.out.println("Is num3 greater than num2 or greater than num4? " + comparison);
 
