@@ -15,14 +15,14 @@ public class DataTypesSolution {
         System.out.println("Today I am " + age + " year's old.");
         System.out.println("On today's date of " + month +'/' + day + '/' + year);
         System.out.println("I am learning how to code!");
-        System.out.println("I will learn how to code this year!This statement is: " + yearlyGoal);
+        System.out.println("I will learn how to code this year! This statement is: " + yearlyGoal);
 
         //Step 3 : Add a goal for how long you will spend going through the material from this program every week
         final int hoursToComplete = 20; //ADD <hoursToComplete> AS A FINAL INTEGER WITH THE VALUE SET TO 1000
         double hours = 0; //ADD THE AMOUNT OF HOURS YOU ARE GOING TO SPEND ON THIS PROGRAM
 
         System.out.println("If I spend " + hours + " every week it will take " + (hoursToComplete / hours)
-                + "weeks to complete this course"); //ADD A {System.out.println} STATEMENT THAT DIVIDES HOURS TO COMPLETE BY HOURS
+                + " weeks to complete this course"); //ADD A {System.out.println} STATEMENT THAT DIVIDES HOURS TO COMPLETE BY HOURS
 
 
 
