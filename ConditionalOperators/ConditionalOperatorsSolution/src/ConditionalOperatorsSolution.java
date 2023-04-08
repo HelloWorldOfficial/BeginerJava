@@ -20,7 +20,6 @@ public class ConditionalOperatorsSolution{
         }
         // ADD SECOND CONDITIONAL STATEMENT HERE THAT EVALUATES IF STUDENT RECEIVED A "B" PRINT OUT THE RESULT
         else if (grade < 90) {
-
             System.out.println("Student has received a B in the class");
         }
         // ADD THIRD CONDITIONAL STATEMENT HERE THAT EVALUATES IF STUDENT RECEVED A "C" PRINT OUT THE RESULT
@@ -44,7 +43,6 @@ public class ConditionalOperatorsSolution{
          */
 
         // Step 2: Change the value of <grade> to be that of <student1> write the results here :
-
 
         // Step 3: Change the value of <grade> to be that of <student2> write the results here :
 

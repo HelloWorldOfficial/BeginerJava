@@ -1,4 +1,4 @@
-public class OperatorsExercise {
+public class LogicalOperatorsExercise {
     public static void main(String[] args) {
 
         // Background: We will be doing some simple operations in order to teach you about how to use the logical & math operators.
