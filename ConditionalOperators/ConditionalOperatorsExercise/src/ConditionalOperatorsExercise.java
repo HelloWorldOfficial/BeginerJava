@@ -13,8 +13,7 @@ public class ConditionalOperatorsExercise {
         double student5 = -10;
         double grade = student1;
 
-        // Step 1: Write out the if branch starting here 
-
+        // Step 1: Write out the if branch starting her
         //ADD FIRST /if/ STATEMENT HERE THAT EVALUATES IF STUDENT RECEIVED AN "A" PRINT OUT THE RESULT
 
         // ADD SECOND CONDITIONAL STATEMENT HERE THAT EVALUATES IF STUDENT RECEIVED A "B" PRINT OUT THE RESULT
