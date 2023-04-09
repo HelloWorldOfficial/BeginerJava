@@ -3,7 +3,7 @@
  // For this excercise you will create a program that lets a student know what letter grade their scores were equal to
  // You will need to use the conditional if,else if and else statements to determine what grade the student received
  //**********************************************************************************   */
-public class ConditionalOperatorsSolution{
+public class ConditionalStatementsSolution {
     public static void main(String[] args) {
         double student1 = 79.5;
         double student2 = 60;
