@@ -1,0 +1,15 @@
+//***************************************************************************
+//*
+//* 						(Title of Project - With Spaces)
+//*
+//* 			(Date Project was originally published)            (Who published it)
+//*
+//* (describe the program)
+//*
+//*
+//* (change date)	(Who edited it) (Version number)
+//*
+//*
+//*
+//***************************************************************************
+
