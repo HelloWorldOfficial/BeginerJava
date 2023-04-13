@@ -4,10 +4,10 @@
 //*
 //* 			(Date Project was originally published)            (Who published it)
 //*
-//* (describe the program)
+//* Description: (describe the program)
 //*
 //*
-//* (change date)	(Who edited it) (Version number)
+//* Edited: (change date)	    Edited:(Who edited it)     Version:(Version number)
 //*
 //*
 //*
