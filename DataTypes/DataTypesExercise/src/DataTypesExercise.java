@@ -1,6 +1,6 @@
 //***************************************************************************
 //*
-//* 					DataTypesExercise
+//* 					Data Types Exercise
 //*
 //* 			April 12th, 2023          HelloWorldOfficial
 //*

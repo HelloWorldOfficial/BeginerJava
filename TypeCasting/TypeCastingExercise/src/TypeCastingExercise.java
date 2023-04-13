@@ -1,5 +1,5 @@
 //***************************************************************************
-//*                      Type Casting
+//*                      Type Casting Exercise
 //*
 //*             April, 9th 2023 	HelloWorldOfficial
 //*
@@ -7,8 +7,9 @@
 //*     These principals will become important as we get into doing calculations with variables, and correctly receiving
 //*     the desired output.
 //*
+//* Edited: April, 9th 2023	     Version:1
 //*
-//*
+// Edited:HelloWorldOfficial
 //*
 //*
 //***************************************************************************

@@ -1,6 +1,20 @@
+//***************************************************************************
+//*
+//* 						Comparison Operators Exercise
+//*
+//* 			April 12th, 2023            HelloWorldOfficial
+//*
+//* Description: This exercise shows you how to do simple mathematical operations (*,-,+,/,%)
+//               and then also explains the basics of comparison operators (==,<=,>=,!=)
+//*
+//*
+//* Edited: April 12th, 2023	    Edited:HelloWorldOfficial     Version:1
+//*
+//*
+//*
+//***************************************************************************
+
 public class ComparisonOperatorsExercise {
-
-
     public static void main(String[] args) {
 
         // Background: We will be doing some simple operations in order to teach you about how to use the logical & math operators.

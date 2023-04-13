@@ -1,6 +1,6 @@
 //***************************************************************************
 //*
-//* 					BeginnerStringsExercise
+//* 					Beginner Strings Solution
 //*
 //* 			April 12th, 2023            HelloWorldOfficial
 //*
