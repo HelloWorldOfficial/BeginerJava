@@ -1,3 +1,17 @@
+//***************************************************************************
+//*
+//* 					BeginnerStringsExercise
+//*
+//* 			April 12th, 2023            HelloWorldOfficial
+//*
+//*  Description: This exercise goes over some basic operations with Strings. Covers converting Strings into usable
+//*               numerical values, the length of Strings, concatenating Strings, Tabs and New lines, and using String.Format.
+//*
+//* Edited: April 12th, 2023        Edited: HelloWorldOfficial      Version = 1
+//*
+//*
+//*
+//***************************************************************************
 import java.util.Scanner;
 public class BeginnerStringsExercise {
     public static void main(String[] args) {
