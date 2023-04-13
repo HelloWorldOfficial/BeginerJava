@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BeginnerStringsExercise {
+public class BeginnerStringsSolution {
     public static void main(String[] args) {
 
             /* Step 1: We are going to start out by learning how to change a String value into a numerical value.
@@ -11,15 +11,16 @@ public class BeginnerStringsExercise {
         System.out.println("Please enter a number: ");
         String input = scanner.nextLine();
 
-        // WRITE CODE HERE
+        double inputDouble = Double.parseDouble(input);// WRITE CODE HERE
 
         /* As you may have noticed simply setting <input> to <inputDouble> resulted in a type mismatch error, this is because
         * the input was captured as a String. To fix this set <inputDouble> equal to the Double method for {parseDouble} */
 
         /* Step 2: Finding the length of a string. In this exercise we will be using a String method */
+
         String lengthExample = "What is the length of this statement ?";
 
-        int lengthOfStatement = 0; // WRITE YOUR CODE HERE
+        int lengthOfStatement = lengthExample.length(); // WRITE YOUR CODE HERE
 
         System.out.println(lengthOfStatement);
 
@@ -28,16 +29,16 @@ public class BeginnerStringsExercise {
         String base = "This is the base string ";
         String additionalString = " and I am the additional string";
 
-        System.out.println(); // ADD THE TWO VARIABLES ABOVE TO CONCATENATE THE STRINGS
+        System.out.println(base + additionalString); // ADD THE TWO VARIABLES ABOVE TO CONCATENATE THE STRINGS
 
         /* There is another way in which we can accomplish the format above by using the {concat} method try that in the
         * print statement below */
 
-        System.out.println(); //USE THE CONCAT STATEMENT ON THIS PRINT STATEMENT
+        System.out.println(base.concat(additionalString)); //USE THE CONCAT STATEMENT ON THIS PRINT STATEMENT
 
         /* Step 4: Use the /n and /t character to create a newline and a tab character within the <newLineTab> variable */
 
-        String newLineTab = null; // CHANGE THIS STRING;
+        String newLineTab = "First line \n \t this one is is tabbed"; // CHANGE THIS STRING;
 
         System.out.println(newLineTab);
 
@@ -45,7 +46,7 @@ public class BeginnerStringsExercise {
 
         double decimal = 10.764;
 
-        String decimalRoundUp = null; // ADD THE {String.Format} METHOD TO THIS LINE TO ROUND UP THE DECIMAL
+        String decimalRoundUp = String.format("The number rounded up is %.2f", decimal); // ADD THE {String.Format} METHOD TO THIS LINE TO ROUND UP THE DECIMAL
 
         System.out.println(decimalRoundUp);
 
