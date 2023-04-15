@@ -24,11 +24,11 @@ public class DataTypesExercise {
         // ADD A BOOLEAN NAMED <yearlyGoal> WITH A TRUE VALUE HERE
 
         /* Step 2. Print your variables */
-        System.out.println("Hello my name is " + name);
-        System.out.println("Today I am " + age + " year's old.");
-        System.out.println("On today's date of " + month +'/' + day + '/' + year);
+        System.out.println("Hello my name is " + "ADD <name> HERE");
+        System.out.println("Today I am " + "ADD <age> HERE" + " year's old.");
+        System.out.println("On today's date of " + "ADD <month> HERE" +'/' + "ADD <day> HERE" + '/' + "ADD <age> HERE");
         System.out.println("I am learning how to code!");
-        System.out.println("I will learn how to code this year!This statement is: " + yearlyGoal);
+        System.out.println("I will learn how to code this year!This statement is: " + "ADD <yearlyGoal> HERE");
 
 
         /* Step 3 : Add a goal for how long you will spend going through the material from this program every week */
