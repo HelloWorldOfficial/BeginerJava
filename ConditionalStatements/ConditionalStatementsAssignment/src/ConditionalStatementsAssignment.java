@@ -1,8 +1,20 @@
-/***************************************************************************************
- // One way that we can use conditional operators is to calculate a score on an exam
- // For this excercise you will create a program that lets a student know what letter grade their scores were equal to
- // You will need to use the conditional if,else if and else statements to determine what grade the student received
- //**********************************************************************************   */
+//***************************************************************************
+//*
+//* 						Conditional Statements Assignment
+//*
+//* 			April 14th, 2023              HelloWorldOfficial
+//*
+//* Description: One way that we can use conditional operators is to calculate a score on an exam
+//*              For this exercise you will create a program that lets a student know what letter grade their scores were equal to
+//*              You will need to use the conditional if,else if and else statements to determine what grade the student received
+//*              describe the program
+//*
+//*
+//* Edited: April 14th, 2023	    Edited: HelloWorldOfficial     Version:1
+//*
+//*
+//*
+//***************************************************************************
 public class ConditionalStatementsAssignment {
     public static void main(String[] args) {
         double student1 = 79.5;
