@@ -30,11 +30,9 @@ public class DataTypesExercise {
         System.out.println("I am learning how to code!");
         System.out.println("I will learn how to code this year!This statement is: " + "ADD <yearlyGoal> HERE");
 
-
         /* Step 3 : Add a goal for how long you will spend going through the material from this program every week */
         //ADD <hoursToComplete> AS A FINAL INTEGER WITH THE VALUE SET TO 1000
         //ADD THE AMOUNT OF HOURS YOU ARE GOING TO SPEND ON THIS PROGRAM
-
 
     }
 }
