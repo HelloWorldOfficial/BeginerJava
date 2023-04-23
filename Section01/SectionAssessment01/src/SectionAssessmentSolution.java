@@ -64,9 +64,9 @@ public class SectionAssessmentSolution {
         }
 
         //REMEMBER TO CONVERT THAT String DATA INTO A USABLE NUMERICAL VALUE AND TO EVALUATE THAT THE USER HAS NOT PUT IN A UNUSABLE VALUE IN FOR THEIR ANSWER
-        //REMEMBER TO ASSIGN THE TYPE OF CUSTOMER TO A STRING VALUE
+        //REMEMBER TO ASSIGN THE TYPE OF CUSTOMER TO A ST1RING VALUE
 
-        /* Step 3: Ask the customer how many hours off electricity they used  */
+        /* Step 3: Ask the customer how many hours of electricity they used  */
 
         System.out.println("How many hours of electricity did you use ?");
         hoursOfElectricityString = scanner.nextLine();
@@ -81,6 +81,7 @@ public class SectionAssessmentSolution {
 
         if (typeOfCustomer == 1)
         {
+            typeOfCustomerString = "Civilian";
             /* Step 5A: Calculate the monthly cost of electricity for a civilian customer with the number of hours that was provided,
             and the rate given in the pdf*/
 
@@ -104,12 +105,14 @@ public class SectionAssessmentSolution {
 
               totalCost = costBeforeDiscount - discountInDollars;
             }
-            else {
+            else
+            {
                 totalCost = costBeforeDiscount;
             }
         }
         else
         {
+            typeOfCustomerString = "Enterprise";
             /* Step 5B: calculate the monthly cost of electricity for an enterprise customer with the number of hours that the customer provided, and the rate given in the pdf*/
 
             rate = 0.20;
@@ -131,7 +134,8 @@ public class SectionAssessmentSolution {
 
                 totalCost = costBeforeDiscount - discountInDollars;
             }
-            else {
+            else
+            {
                 totalCost = costBeforeDiscount;
             }
 
@@ -145,7 +149,9 @@ public class SectionAssessmentSolution {
         //If totalCost == costBeforeDiscount it means that no discount was applied
         if (totalCost == costBeforeDiscount ) {
             output = output +  " the variance of these prices is $" + String.format("%.2f",variance) + "\n" + "\t" + "Your total cost is: $" + String.format("%.2f", totalCost);
-        } else {
+        }
+        else
+        {
             output = output + " the variance of these prices is $" + String.format("%.2f", variance) + "\n"
                     + "\t" + "We therefore gave you a" + (discount * 100) + "% discount. Which lowered your total price by $" + String.format("%.2f", discountInDollars)  + "\n"
                     +"\t" + "Your total cost is now $" + String.format("%.2f", totalCost);
