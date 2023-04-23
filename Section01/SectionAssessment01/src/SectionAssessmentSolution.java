@@ -45,8 +45,8 @@ public class SectionAssessmentSolution {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to Electricity Bill calculator !");
-        System.out.println("Please type a 1 if you are a Civilian Customer, and a 2 if you are an enterprise customer");
+        System.out.println("Welcome to Electricity Bill Calculator !");
+        System.out.println("Please type a 1 if you are a Civilian Customer, and a 2 if you are an Enterprise customer");
 
         typeOfCustomerStringInput = scanner.nextLine();
         typeOfCustomer = Integer.parseInt(typeOfCustomerStringInput);
@@ -147,8 +147,8 @@ public class SectionAssessmentSolution {
             output = output +  " the variance of these prices is $" + String.format("%.2f",variance) + "\n" + "\t" + "Your total cost is: $" + String.format("%.2f", totalCost);
         } else {
             output = output + " the variance of these prices is $" + String.format("%.2f", variance) + "\n"
-                    + "\t" + "We therefore gave you a %" + (discount * 100) + ". Which lowered your total price by $" + String.format("%.2f", discountInDollars)  + "\n"
-                    +"\t" + "Your total price is now equal to " + String.format("%.2f", totalCost);
+                    + "\t" + "We therefore gave you a" + (discount * 100) + "% discount. Which lowered your total price by $" + String.format("%.2f", discountInDollars)  + "\n"
+                    +"\t" + "Your total cost is now $" + String.format("%.2f", totalCost);
         }
 
         System.out.print(output);
