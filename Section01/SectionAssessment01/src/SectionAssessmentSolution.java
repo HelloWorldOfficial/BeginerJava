@@ -153,7 +153,7 @@ public class SectionAssessmentSolution {
         else
         {
             output = output + " the variance of these prices is $" + String.format("%.2f", variance) + "\n"
-                    + "\t" + "We therefore gave you a" + (discount * 100) + "% discount. Which lowered your total price by $" + String.format("%.2f", discountInDollars)  + "\n"
+                    + "\t" + "We therefore gave you a " + (discount * 100) + "% discount. Which lowered your total price by $" + String.format("%.2f", discountInDollars)  + "\n"
                     +"\t" + "Your total cost is now $" + String.format("%.2f", totalCost);
         }
 
